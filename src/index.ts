@@ -13,6 +13,11 @@ app.get('/ping', (c) => {
 app.get('/college', (c) => {
   return c.text('siddaganga institute of technology');
 })
+
+app.get('/name', (c) => {
+  return c.text('Indrajith');
+})
+
 export default app;
 
 
