@@ -10,7 +10,9 @@ app.get('/', (c) => {
 app.get('/ping', (c) => {
   return c.json({ pong: 'Hello, World' });
 });
-
+app.get('/college', (c) => {
+  return c.text('siddaganga institute of technology');
+})
 export default app;
 
 
